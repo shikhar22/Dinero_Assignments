@@ -132,7 +132,7 @@ class HomeScreen extends StatelessWidget {
             children: <Widget>[
               Container(
                 width: size.width * 0.42,
-                height: size.height * 0.27,
+                height: size.height * 0.26,
                 // color: Colors.blue,
                 decoration: const BoxDecoration(
                   color: Color.fromRGBO(47, 128, 237, 1),
@@ -148,13 +148,14 @@ class HomeScreen extends StatelessWidget {
                         IconlyBold.wallet,
                         color: Colors.white,
                       ),
+                      const SizedBox(height: 10,),
                       const Text(
                         'Main Balance',
-                        style: TextStyle(fontSize: 20, color: Colors.grey),
+                        style: TextStyle(fontSize: 20, color: Color.fromRGBO(179, 192, 208, 1)),
                       ),
                       const Text(
                         '\$4,523',
-                        style: TextStyle(fontSize: 40, color: Colors.white),
+                        style: TextStyle(fontSize: 38, color: Colors.white, fontWeight: FontWeight.bold),
                       ),
                       Container(
                         width: 54,
@@ -180,7 +181,7 @@ class HomeScreen extends StatelessWidget {
               ),
               Container(
                 width: size.width * 0.42,
-                height: size.height * 0.27,
+                height: size.height * 0.26,
                 decoration: const BoxDecoration(
                   color: Color.fromRGBO(250, 240, 235, 1),
                   borderRadius: BorderRadius.all(Radius.circular(12)),
@@ -195,15 +196,17 @@ class HomeScreen extends StatelessWidget {
                         IconlyBold.wallet,
                         color: Color.fromRGBO(143, 71, 36, 1),
                       ),
+                      SizedBox(height: 10,),
                       Text(
-                        'Main Balance',
-                        style: TextStyle(fontSize: 20, color: Colors.grey),
+                        'Card Balance',
+                        style: TextStyle(fontSize: 20, color: Color.fromRGBO(224, 214, 209, 1)),
                       ),
                       Text(
                         '**5677',
                         style: TextStyle(
                             fontSize: 40,
-                            color: Color.fromRGBO(143, 71, 36, 1)),
+                            color: Color.fromRGBO(143, 71, 36, 1),
+                            fontWeight:FontWeight.bold),
                       ),
                       Image(image: AssetImage('Circle.png')),
                     ],

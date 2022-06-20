@@ -74,11 +74,11 @@ flutter:
   # "family" key with the font family name, and a "fonts" key with a
   # list giving the asset and other descriptors for the font. For
   # example:
-  # fonts:
-  #   - family: SourceSansPro
-  #     fonts:
-  #       - asset: fonts/SourceSansPro-Light.ttf
-  #       - asset: fonts/SourceSansPro-SemiBold.ttf
+  fonts:
+    - family: Inter
+      fonts:
+        - asset: fonts/Inter-Light.ttf
+        - asset: fonts/Inter-SemiBold.ttf
     
   #
   # For details regarding fonts from package dependencies,
